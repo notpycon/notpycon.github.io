@@ -1,3 +1,5 @@
-. Homepage
+= Homepage
 
 The landing pages for notpycon.org
+
+The repository is configured so that ghpages watches `/docs` on the `master` branch.
