@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section,
+footer {
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+}
+
+header {
+    background-color: silver;
+}
+
+section {
+    
+    background-color: black;
+    color: silver;
+}
+
+footer {
+    background-color: silver;
+}
+
+.qanda div {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+table { 
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
