@@ -1,6 +1,33 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #272424;
+    font-family: monospace;
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:link {
+    color: inherit;
+}
+
+/* visited link */
+a:visited {
+    color: inherit;
 }
 
 header,
@@ -12,27 +39,45 @@ footer {
 }
 
 header {
-    background-color: silver;
+    height: 500px;
+    width: auto;
+    background-image: url("img/il-2018-cover-combined.png");
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
-section {
-    
-    background-color: black;
-    color: silver;
+.register {
+    background-color: #C2D3DA;
+    color: black;
+    font-size: 19px;
 }
 
 footer {
-    background-color: silver;
+    background-color: #C2D3DA;
 }
 
 .qanda div {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 5px;
+    background-color:#272424;
+    color: #f1f3f2;
+}
+
+.qanda h2 {
+    font-size: 25px;
+}
+
+.qanda h3 {
+    font-size: 20px;
+}
+.qanda p {
+    font-size: 15px;
 }
 
 table { 
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+    font-size: 15px;
 }
