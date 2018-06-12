@@ -56,6 +56,11 @@ footer {
     background-color: #C2D3DA;
 }
 
+section.qanda {
+    width: 650px;
+    margin: 0 auto;
+}
+
 .qanda div {
     padding-left: 40px;
     padding-right: 40px;
